@@ -54,7 +54,6 @@ set -o pipefail
 ```
 
 성공 판정은 `CRC OK` → `[OK] Download` → `jump_to_fw` → `jump finished` 출력으로 확인합니다.
-(파일 체크섬 일치만으로는 업로드 성공 근거가 되지 않으므로, 보드가 펌웨어로 점프한 출력까지 남겼습니다.)
 
 ### 3-3. 목표 입력 및 응답 기록
 
@@ -87,12 +86,3 @@ s <Kp> <speed_limit_deg_s> <angle_deg>
 | (동일, 화면 캡처) | [`results/A_Start.png`](results/A_Start.png), [`results/A_finish.png`](results/A_finish.png) | 실행 A 시작 시점 / 종료·정지 확인 화면 |
 | 문제 3 비교용 실행 B | [`results/B_log.txt`](results/B_log.txt) | 실행 B(Kp=60) 전체 시리얼 기록 |
 | (동일, 화면 캡처) | [`results/B_start.png`](results/B_start.png), [`results/B_finish.png`](results/B_finish.png) | 실행 B 시작 시점 / 종료 화면 |
-
-## 5. 로그 한 행의 필드
-
-```
-target_deg  position_deg  error_deg  p_deg_s  i_deg_s  d_deg_s  pid_deg_s
-speed_deg_s  u_deg_s  v_limit_deg_s  dt_ms  kp  ki  kd  t_s
-```
-
-각 필드의 의미와 단위는 [report.md의 「문제 1 — 4) 결과 설명 · 값의 이름과 단위 구분」](report.md#값의-이름과-단위-구분)에 정리했습니다.
