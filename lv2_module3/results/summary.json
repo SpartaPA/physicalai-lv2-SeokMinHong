@@ -1,0 +1,505 @@
+{
+  "exp1_A": {
+    "input_cdr_sha256": "7ec632b021efff41a853aaa7f8ab5c6887bda4aaa57923c33751aa51d04c6d6a",
+    "raw_pixel_sha256": "5dfa08e5e42a276023ea3cdd53fb69b3c2f556d2a021117145d7a92406180288",
+    "mask_pixel_sha256": "cb9384e6e353a84f746f9ff003893d04530360f8e4645938a8a55c3c17a298cd",
+    "stamp": {
+      "stamp": {
+        "sec": 1791802701,
+        "nanosec": 721855617
+      },
+      "frame_id": "camera_color_optical_frame"
+    },
+    "bag_offset_seconds": 5,
+    "width": 1920,
+    "height": 1080,
+    "parameters": {
+      "mask": {
+        "h_low": 104,
+        "h_high": 120,
+        "s_low": 200,
+        "s_high": 255,
+        "v_low": 8,
+        "v_high": 255,
+        "kernel_size": 5,
+        "min_area": 500.0
+      },
+      "detection": {
+        "min_area": 500.0
+      }
+    },
+    "white_pixels": 18256,
+    "contours": [
+      {
+        "area": 17969.0,
+        "bbox_xywh": [
+          804,
+          413,
+          105,
+          205
+        ],
+        "passes": true
+      }
+    ],
+    "detections": {
+      "header": {
+        "stamp": {
+          "sec": 1791802701,
+          "nanosec": 721855617
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "detections": [
+        {
+          "header": {
+            "stamp": {
+              "sec": 1791802701,
+              "nanosec": 721855617
+            },
+            "frame_id": "camera_color_optical_frame"
+          },
+          "results": [
+            {
+              "hypothesis": {
+                "class_id": "blob",
+                "score": 1.0
+              },
+              "pose": {
+                "pose": {
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "covariance": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          ],
+          "bbox": {
+            "center": {
+              "position": {
+                "x": 856.5,
+                "y": 515.5
+              },
+              "theta": 0.0
+            },
+            "size_x": 105.0,
+            "size_y": 205.0
+          },
+          "id": ""
+        }
+      ]
+    }
+  },
+  "exp1_B": {
+    "input_cdr_sha256": "7ec632b021efff41a853aaa7f8ab5c6887bda4aaa57923c33751aa51d04c6d6a",
+    "raw_pixel_sha256": "5dfa08e5e42a276023ea3cdd53fb69b3c2f556d2a021117145d7a92406180288",
+    "mask_pixel_sha256": "7163cea57ed902cfed6dda8044d47a005362e859d91c507f7b8676a2ca7eab8c",
+    "stamp": {
+      "stamp": {
+        "sec": 1791802701,
+        "nanosec": 721855617
+      },
+      "frame_id": "camera_color_optical_frame"
+    },
+    "bag_offset_seconds": 5,
+    "width": 1920,
+    "height": 1080,
+    "parameters": {
+      "mask": {
+        "h_low": 104,
+        "h_high": 120,
+        "s_low": 150,
+        "s_high": 255,
+        "v_low": 8,
+        "v_high": 255,
+        "kernel_size": 5,
+        "min_area": 500.0
+      },
+      "detection": {
+        "min_area": 500.0
+      }
+    },
+    "white_pixels": 19583,
+    "contours": [
+      {
+        "area": 19288.0,
+        "bbox_xywh": [
+          800,
+          412,
+          111,
+          207
+        ],
+        "passes": true
+      }
+    ],
+    "detections": {
+      "header": {
+        "stamp": {
+          "sec": 1791802701,
+          "nanosec": 721855617
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "detections": [
+        {
+          "header": {
+            "stamp": {
+              "sec": 1791802701,
+              "nanosec": 721855617
+            },
+            "frame_id": "camera_color_optical_frame"
+          },
+          "results": [
+            {
+              "hypothesis": {
+                "class_id": "blob",
+                "score": 1.0
+              },
+              "pose": {
+                "pose": {
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "covariance": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          ],
+          "bbox": {
+            "center": {
+              "position": {
+                "x": 855.5,
+                "y": 515.5
+              },
+              "theta": 0.0
+            },
+            "size_x": 111.0,
+            "size_y": 207.0
+          },
+          "id": ""
+        }
+      ]
+    }
+  },
+  "exp2_A": {
+    "input_cdr_sha256": "7ec632b021efff41a853aaa7f8ab5c6887bda4aaa57923c33751aa51d04c6d6a",
+    "raw_pixel_sha256": "5dfa08e5e42a276023ea3cdd53fb69b3c2f556d2a021117145d7a92406180288",
+    "mask_pixel_sha256": "7163cea57ed902cfed6dda8044d47a005362e859d91c507f7b8676a2ca7eab8c",
+    "stamp": {
+      "stamp": {
+        "sec": 1791802701,
+        "nanosec": 721855617
+      },
+      "frame_id": "camera_color_optical_frame"
+    },
+    "bag_offset_seconds": 5,
+    "width": 1920,
+    "height": 1080,
+    "parameters": {
+      "mask": {
+        "h_low": 104,
+        "h_high": 120,
+        "s_low": 150,
+        "s_high": 255,
+        "v_low": 8,
+        "v_high": 255,
+        "kernel_size": 5,
+        "min_area": 500.0
+      },
+      "detection": {
+        "min_area": 500.0
+      }
+    },
+    "white_pixels": 19583,
+    "contours": [
+      {
+        "area": 19288.0,
+        "bbox_xywh": [
+          800,
+          412,
+          111,
+          207
+        ],
+        "passes": true
+      }
+    ],
+    "detections": {
+      "header": {
+        "stamp": {
+          "sec": 1791802701,
+          "nanosec": 721855617
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "detections": [
+        {
+          "header": {
+            "stamp": {
+              "sec": 1791802701,
+              "nanosec": 721855617
+            },
+            "frame_id": "camera_color_optical_frame"
+          },
+          "results": [
+            {
+              "hypothesis": {
+                "class_id": "blob",
+                "score": 1.0
+              },
+              "pose": {
+                "pose": {
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                  }
+                },
+                "covariance": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          ],
+          "bbox": {
+            "center": {
+              "position": {
+                "x": 855.5,
+                "y": 515.5
+              },
+              "theta": 0.0
+            },
+            "size_x": 111.0,
+            "size_y": 207.0
+          },
+          "id": ""
+        }
+      ]
+    }
+  },
+  "exp2_B": {
+    "input_cdr_sha256": "7ec632b021efff41a853aaa7f8ab5c6887bda4aaa57923c33751aa51d04c6d6a",
+    "raw_pixel_sha256": "5dfa08e5e42a276023ea3cdd53fb69b3c2f556d2a021117145d7a92406180288",
+    "mask_pixel_sha256": "7163cea57ed902cfed6dda8044d47a005362e859d91c507f7b8676a2ca7eab8c",
+    "stamp": {
+      "stamp": {
+        "sec": 1791802701,
+        "nanosec": 721855617
+      },
+      "frame_id": "camera_color_optical_frame"
+    },
+    "bag_offset_seconds": 5,
+    "width": 1920,
+    "height": 1080,
+    "parameters": {
+      "mask": {
+        "h_low": 104,
+        "h_high": 120,
+        "s_low": 150,
+        "s_high": 255,
+        "v_low": 8,
+        "v_high": 255,
+        "kernel_size": 5,
+        "min_area": 500.0
+      },
+      "detection": {
+        "min_area": 20000.0
+      }
+    },
+    "white_pixels": 19583,
+    "contours": [
+      {
+        "area": 19288.0,
+        "bbox_xywh": [
+          800,
+          412,
+          111,
+          207
+        ],
+        "passes": false
+      }
+    ],
+    "detections": {
+      "header": {
+        "stamp": {
+          "sec": 1791802701,
+          "nanosec": 721855617
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "detections": []
+    }
+  },
+  "no_target": {
+    "input_cdr_sha256": "f378f5d7d6b34bff3e76123bbcd1c2ec478c5dfb8dfc5e4cd0819d910b2b1eca",
+    "raw_pixel_sha256": "8513b0e2127bdc1245eaa1fb2a7afd804a92c80058a585df64ce52d2a28b9f01",
+    "mask_pixel_sha256": "11283ef755895422e6f28b93f3d78cad7539891cf2893c9fdccefb923c5bf70b",
+    "stamp": {
+      "stamp": {
+        "sec": 1791802696,
+        "nanosec": 684268028
+      },
+      "frame_id": "camera_color_optical_frame"
+    },
+    "bag_offset_seconds": 0,
+    "width": 1920,
+    "height": 1080,
+    "parameters": {
+      "mask": {
+        "h_low": 104,
+        "h_high": 120,
+        "s_low": 150,
+        "s_high": 255,
+        "v_low": 8,
+        "v_high": 255,
+        "kernel_size": 5,
+        "min_area": 500.0
+      },
+      "detection": {
+        "min_area": 500.0
+      }
+    },
+    "white_pixels": 0,
+    "contours": [],
+    "detections": {
+      "header": {
+        "stamp": {
+          "sec": 1791802696,
+          "nanosec": 684268028
+        },
+        "frame_id": "camera_color_optical_frame"
+      },
+      "detections": []
+    }
+  }
+}

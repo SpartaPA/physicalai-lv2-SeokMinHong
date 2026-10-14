@@ -1,0 +1,136 @@
+{
+  "input_cdr_sha256": "7ec632b021efff41a853aaa7f8ab5c6887bda4aaa57923c33751aa51d04c6d6a",
+  "raw_pixel_sha256": "5dfa08e5e42a276023ea3cdd53fb69b3c2f556d2a021117145d7a92406180288",
+  "mask_pixel_sha256": "7163cea57ed902cfed6dda8044d47a005362e859d91c507f7b8676a2ca7eab8c",
+  "stamp": {
+    "stamp": {
+      "sec": 1791802701,
+      "nanosec": 721855617
+    },
+    "frame_id": "camera_color_optical_frame"
+  },
+  "bag_offset_seconds": 5,
+  "width": 1920,
+  "height": 1080,
+  "parameters": {
+    "mask": {
+      "h_low": 104,
+      "h_high": 120,
+      "s_low": 150,
+      "s_high": 255,
+      "v_low": 8,
+      "v_high": 255,
+      "kernel_size": 5,
+      "min_area": 500.0
+    },
+    "detection": {
+      "min_area": 500.0
+    }
+  },
+  "white_pixels": 19583,
+  "contours": [
+    {
+      "area": 19288.0,
+      "bbox_xywh": [
+        800,
+        412,
+        111,
+        207
+      ],
+      "passes": true
+    }
+  ],
+  "detections": {
+    "header": {
+      "stamp": {
+        "sec": 1791802701,
+        "nanosec": 721855617
+      },
+      "frame_id": "camera_color_optical_frame"
+    },
+    "detections": [
+      {
+        "header": {
+          "stamp": {
+            "sec": 1791802701,
+            "nanosec": 721855617
+          },
+          "frame_id": "camera_color_optical_frame"
+        },
+        "results": [
+          {
+            "hypothesis": {
+              "class_id": "blob",
+              "score": 1.0
+            },
+            "pose": {
+              "pose": {
+                "position": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                },
+                "orientation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0,
+                  "w": 1.0
+                }
+              },
+              "covariance": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        ],
+        "bbox": {
+          "center": {
+            "position": {
+              "x": 855.5,
+              "y": 515.5
+            },
+            "theta": 0.0
+          },
+          "size_x": 111.0,
+          "size_y": 207.0
+        },
+        "id": ""
+      }
+    ]
+  }
+}

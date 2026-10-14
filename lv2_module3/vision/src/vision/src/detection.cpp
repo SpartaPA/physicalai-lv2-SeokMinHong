@@ -1,4 +1,5 @@
 #include <memory>
+#include <sstream>
 #include <vector>
 
 #include <cv_bridge/cv_bridge.hpp>
@@ -15,7 +16,7 @@ public:
   : Node("detection")
   {
     // Read per frame so it can be tuned live.
-    declare_parameter<double>("min_area", 500.0);
+    declare_parameter<double>("min_area", 20000.0);
 
     detections_pub_ = create_publisher<vision_msgs::msg::Detection2DArray>("/detections", 10);
 
@@ -65,6 +66,24 @@ private:
     }
 
     detections_pub_->publish(detections);
+    logDetections(detections);
+  }
+
+  // Throttled so the log stays readable at camera frame rate.
+  void logDetections(const vision_msgs::msg::Detection2DArray & detections)
+  {
+    if (detections.detections.empty()) {
+      return;
+    }
+
+    std::ostringstream oss;
+    oss << detections.detections.size() << " detection(s)";
+    for (size_t i = 0; i < detections.detections.size(); ++i) {
+      const auto & bbox = detections.detections[i].bbox;
+      oss << " | [" << i << "] center=(" << bbox.center.position.x << ", "
+          << bbox.center.position.y << ") size=" << bbox.size_x << "x" << bbox.size_y;
+    }
+    RCLCPP_INFO_THROTTLE(get_logger(), *get_clock(), 500, "%s", oss.str().c_str());
   }
 
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;

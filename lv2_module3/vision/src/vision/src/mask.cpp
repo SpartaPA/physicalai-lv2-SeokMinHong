@@ -13,11 +13,11 @@ public:
   Mask()
   : Node("mask")
   {
-    declare_parameter<int>("h_low", 170);
-    declare_parameter<int>("s_low", 200);
+    declare_parameter<int>("h_low", 104);
+    declare_parameter<int>("s_low", 150);
     declare_parameter<int>("v_low", 8);
 
-    declare_parameter<int>("h_high", 10);
+    declare_parameter<int>("h_high", 120);
     declare_parameter<int>("s_high", 255);
     declare_parameter<int>("v_high", 255);
 
@@ -63,15 +63,7 @@ private:
     // HSV threshold -> binary mask.
     cv::Mat hsv, mask;
     cv::cvtColor(src->image, hsv, cv::COLOR_BGR2HSV);
-    if (low[0] <= high[0]) {
-      cv::inRange(hsv, low, high, mask);
-    } else {
-      // OpenCV hue is 0-179; split the wrapped range into [h_low, 179] and [0, h_high].
-      cv::Mat upper;
-      cv::inRange(hsv, low, cv::Scalar(179, high[1], high[2]), mask);
-      cv::inRange(hsv, cv::Scalar(0, low[1], low[2]), high, upper);
-      mask |= upper;
-    }
+    cv::inRange(hsv, low, high, mask);
 
     // Open removes small noise, close fills small holes.
     const cv::Mat kernel = cv::getStructuringElement(cv::MORPH_ELLIPSE, cv::Size(k, k));

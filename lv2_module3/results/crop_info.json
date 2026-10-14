@@ -1,0 +1,197 @@
+[
+  {
+    "file": "results/exp1_A/rqt_mask.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp1_A/rqt_overlay.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp1_A/rqt_raw.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp1_B/rqt_mask.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp1_B/rqt_overlay.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp1_B/rqt_raw.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp2_A/rqt_mask.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp2_A/rqt_overlay.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp2_A/rqt_raw.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp2_B/rqt_mask.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp2_B/rqt_overlay.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/exp2_B/rqt_raw.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/no_target/rqt_mask.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/no_target/rqt_overlay.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  },
+  {
+    "file": "results/no_target/rqt_raw.png",
+    "original_size": [
+      951,
+      1024
+    ],
+    "crop_box": [
+      0,
+      0,
+      951,
+      640
+    ]
+  }
+]

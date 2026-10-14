@@ -7,3 +7,4 @@
 | 모듈 | 폴더 | 내용 |
 |---|---|---|
 | 모듈 1 | [lv2_module1/](lv2_module1/) | 원격 수행 환경 구성, OpenCR 펌웨어 업로드, P 제어 목표 응답 기록과 해석 |
+| 모듈 3 | [lv2_module3/](lv2_module3/) | HSV 비전 검출 비교 실험 · [보고서](lv2_module3/report.md) · [결과](lv2_module3/results/) |

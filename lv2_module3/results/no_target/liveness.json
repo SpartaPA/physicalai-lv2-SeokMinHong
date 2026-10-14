@@ -1,0 +1,82 @@
+[
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 684268028
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 717594377
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 750913667
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 784352222
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 817714023
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 851000655
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 884581059
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 917762961
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 951269958
+    },
+    "detections": 0,
+    "mask_white": 0
+  },
+  {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 984679742
+    },
+    "detections": 0,
+    "mask_white": 0
+  }
+]

@@ -1,0 +1,72 @@
+header:
+  stamp:
+    sec: 1791802701
+    nanosec: 721855617
+  frame_id: camera_color_optical_frame
+detections:
+- header:
+    stamp:
+      sec: 1791802701
+      nanosec: 721855617
+    frame_id: camera_color_optical_frame
+  results:
+  - hypothesis:
+      class_id: blob
+      score: 1.0
+    pose:
+      pose:
+        position:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        orientation:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+          w: 1.0
+      covariance:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+  bbox:
+    center:
+      position:
+        x: 856.5
+        y: 515.5
+      theta: 0.0
+    size_x: 105.0
+    size_y: 205.0
+  id: ''

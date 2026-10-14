@@ -1,0 +1,42 @@
+{
+  "input_cdr_sha256": "f378f5d7d6b34bff3e76123bbcd1c2ec478c5dfb8dfc5e4cd0819d910b2b1eca",
+  "raw_pixel_sha256": "8513b0e2127bdc1245eaa1fb2a7afd804a92c80058a585df64ce52d2a28b9f01",
+  "mask_pixel_sha256": "11283ef755895422e6f28b93f3d78cad7539891cf2893c9fdccefb923c5bf70b",
+  "stamp": {
+    "stamp": {
+      "sec": 1791802696,
+      "nanosec": 684268028
+    },
+    "frame_id": "camera_color_optical_frame"
+  },
+  "bag_offset_seconds": 0,
+  "width": 1920,
+  "height": 1080,
+  "parameters": {
+    "mask": {
+      "h_low": 104,
+      "h_high": 120,
+      "s_low": 150,
+      "s_high": 255,
+      "v_low": 8,
+      "v_high": 255,
+      "kernel_size": 5,
+      "min_area": 500.0
+    },
+    "detection": {
+      "min_area": 500.0
+    }
+  },
+  "white_pixels": 0,
+  "contours": [],
+  "detections": {
+    "header": {
+      "stamp": {
+        "sec": 1791802696,
+        "nanosec": 684268028
+      },
+      "frame_id": "camera_color_optical_frame"
+    },
+    "detections": []
+  }
+}
